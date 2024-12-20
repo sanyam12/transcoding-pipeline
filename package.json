@@ -1,0 +1,25 @@
+{
+  "name": "hls-streaming",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.141",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ecs": "^3.616.0",
+    "@aws-sdk/client-iam": "^3.616.0",
+    "@aws-sdk/client-sqs": "^3.616.0",
+    "aws-lambda": "^1.0.7",
+    "dotenv": "^16.4.7"
+  }
+}
